@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.list_view);
         listView.setAdapter(adapter);
         System.out.println("sdfiheguheg");
+        System.out.println("sdfiheguheg");
     }
     private void initFruits(){
 
