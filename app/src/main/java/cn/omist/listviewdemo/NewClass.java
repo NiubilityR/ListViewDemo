@@ -5,4 +5,7 @@ package cn.omist.listviewdemo;
  */
 
 public class NewClass {
+    public void imatest(){
+
+    }
 }
