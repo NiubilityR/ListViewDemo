@@ -3,6 +3,7 @@ package cn.omist.listviewdemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         initFruits();
         ListView listView = (ListView)findViewById(R.id.list_view);
         listView.setAdapter(adapter);
+        System.out.println("sdfiheguheg");
     }
     private void initFruits(){
 
